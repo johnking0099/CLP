@@ -1,197 +1,713 @@
-// Generated from C.g4 by ANTLR 4.0
-import org.antlr.v4.runtime.tree.*;
-import org.antlr.v4.runtime.Token;
+// Generated from C.g4 by ANTLR 4.1
+import org.antlr.v4.runtime.misc.NotNull;
+import org.antlr.v4.runtime.tree.ParseTreeListener;
 
+/**
+ * This interface defines a complete listener for a parse tree produced by
+ * {@link CParser}.
+ */
 public interface CListener extends ParseTreeListener {
-	void enterStruct_declaration_statement(CParser.Struct_declaration_statementContext ctx);
-	void exitStruct_declaration_statement(CParser.Struct_declaration_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#struct_declaration_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterStruct_declaration_statement(@NotNull CParser.Struct_declaration_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#struct_declaration_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitStruct_declaration_statement(@NotNull CParser.Struct_declaration_statementContext ctx);
 
-	void enterEnum_specifier(CParser.Enum_specifierContext ctx);
-	void exitEnum_specifier(CParser.Enum_specifierContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#enum_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void enterEnum_specifier(@NotNull CParser.Enum_specifierContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#enum_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void exitEnum_specifier(@NotNull CParser.Enum_specifierContext ctx);
 
-	void enterAnd_expression(CParser.And_expressionContext ctx);
-	void exitAnd_expression(CParser.And_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#and_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterAnd_expression(@NotNull CParser.And_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#and_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitAnd_expression(@NotNull CParser.And_expressionContext ctx);
 
-	void enterStruct_declarator_list(CParser.Struct_declarator_listContext ctx);
-	void exitStruct_declarator_list(CParser.Struct_declarator_listContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#struct_declarator_list}.
+	 * @param ctx the parse tree
+	 */
+	void enterStruct_declarator_list(@NotNull CParser.Struct_declarator_listContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#struct_declarator_list}.
+	 * @param ctx the parse tree
+	 */
+	void exitStruct_declarator_list(@NotNull CParser.Struct_declarator_listContext ctx);
 
-	void enterInteger_constant(CParser.Integer_constantContext ctx);
-	void exitInteger_constant(CParser.Integer_constantContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#integer_constant}.
+	 * @param ctx the parse tree
+	 */
+	void enterInteger_constant(@NotNull CParser.Integer_constantContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#integer_constant}.
+	 * @param ctx the parse tree
+	 */
+	void exitInteger_constant(@NotNull CParser.Integer_constantContext ctx);
 
-	void enterExternal_declaration(CParser.External_declarationContext ctx);
-	void exitExternal_declaration(CParser.External_declarationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#external_declaration}.
+	 * @param ctx the parse tree
+	 */
+	void enterExternal_declaration(@NotNull CParser.External_declarationContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#external_declaration}.
+	 * @param ctx the parse tree
+	 */
+	void exitExternal_declaration(@NotNull CParser.External_declarationContext ctx);
 
-	void enterExpression_statement(CParser.Expression_statementContext ctx);
-	void exitExpression_statement(CParser.Expression_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#expression_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterExpression_statement(@NotNull CParser.Expression_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#expression_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitExpression_statement(@NotNull CParser.Expression_statementContext ctx);
 
-	void enterIteration_statement(CParser.Iteration_statementContext ctx);
-	void exitIteration_statement(CParser.Iteration_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#iteration_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterIteration_statement(@NotNull CParser.Iteration_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#iteration_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitIteration_statement(@NotNull CParser.Iteration_statementContext ctx);
 
-	void enterStruct_declaration(CParser.Struct_declarationContext ctx);
-	void exitStruct_declaration(CParser.Struct_declarationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#struct_declaration}.
+	 * @param ctx the parse tree
+	 */
+	void enterStruct_declaration(@NotNull CParser.Struct_declarationContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#struct_declaration}.
+	 * @param ctx the parse tree
+	 */
+	void exitStruct_declaration(@NotNull CParser.Struct_declarationContext ctx);
 
-	void enterConstant_expression(CParser.Constant_expressionContext ctx);
-	void exitConstant_expression(CParser.Constant_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#constant_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterConstant_expression(@NotNull CParser.Constant_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#constant_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitConstant_expression(@NotNull CParser.Constant_expressionContext ctx);
 
-	void enterExclusive_or_expression(CParser.Exclusive_or_expressionContext ctx);
-	void exitExclusive_or_expression(CParser.Exclusive_or_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#exclusive_or_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterExclusive_or_expression(@NotNull CParser.Exclusive_or_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#exclusive_or_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitExclusive_or_expression(@NotNull CParser.Exclusive_or_expressionContext ctx);
 
-	void enterExpression(CParser.ExpressionContext ctx);
-	void exitExpression(CParser.ExpressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterExpression(@NotNull CParser.ExpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitExpression(@NotNull CParser.ExpressionContext ctx);
 
-	void enterDirect_abstract_declarator(CParser.Direct_abstract_declaratorContext ctx);
-	void exitDirect_abstract_declarator(CParser.Direct_abstract_declaratorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#direct_abstract_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void enterDirect_abstract_declarator(@NotNull CParser.Direct_abstract_declaratorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#direct_abstract_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void exitDirect_abstract_declarator(@NotNull CParser.Direct_abstract_declaratorContext ctx);
 
-	void enterCast_expression(CParser.Cast_expressionContext ctx);
-	void exitCast_expression(CParser.Cast_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#cast_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterCast_expression(@NotNull CParser.Cast_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#cast_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitCast_expression(@NotNull CParser.Cast_expressionContext ctx);
 
-	void enterFunction_definition(CParser.Function_definitionContext ctx);
-	void exitFunction_definition(CParser.Function_definitionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#function_definition}.
+	 * @param ctx the parse tree
+	 */
+	void enterFunction_definition(@NotNull CParser.Function_definitionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#function_definition}.
+	 * @param ctx the parse tree
+	 */
+	void exitFunction_definition(@NotNull CParser.Function_definitionContext ctx);
 
-	void enterStruct_or_union_specifier(CParser.Struct_or_union_specifierContext ctx);
-	void exitStruct_or_union_specifier(CParser.Struct_or_union_specifierContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#struct_or_union_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void enterStruct_or_union_specifier(@NotNull CParser.Struct_or_union_specifierContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#struct_or_union_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void exitStruct_or_union_specifier(@NotNull CParser.Struct_or_union_specifierContext ctx);
 
-	void enterEnumeration_constant(CParser.Enumeration_constantContext ctx);
-	void exitEnumeration_constant(CParser.Enumeration_constantContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#enumeration_constant}.
+	 * @param ctx the parse tree
+	 */
+	void enterEnumeration_constant(@NotNull CParser.Enumeration_constantContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#enumeration_constant}.
+	 * @param ctx the parse tree
+	 */
+	void exitEnumeration_constant(@NotNull CParser.Enumeration_constantContext ctx);
 
-	void enterStruct_or_union(CParser.Struct_or_unionContext ctx);
-	void exitStruct_or_union(CParser.Struct_or_unionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#struct_or_union}.
+	 * @param ctx the parse tree
+	 */
+	void enterStruct_or_union(@NotNull CParser.Struct_or_unionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#struct_or_union}.
+	 * @param ctx the parse tree
+	 */
+	void exitStruct_or_union(@NotNull CParser.Struct_or_unionContext ctx);
 
-	void enterJump_statement(CParser.Jump_statementContext ctx);
-	void exitJump_statement(CParser.Jump_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#jump_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterJump_statement(@NotNull CParser.Jump_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#jump_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitJump_statement(@NotNull CParser.Jump_statementContext ctx);
 
-	void enterMultiplicative_expression(CParser.Multiplicative_expressionContext ctx);
-	void exitMultiplicative_expression(CParser.Multiplicative_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#multiplicative_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterMultiplicative_expression(@NotNull CParser.Multiplicative_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#multiplicative_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitMultiplicative_expression(@NotNull CParser.Multiplicative_expressionContext ctx);
 
-	void enterPostfix_expression(CParser.Postfix_expressionContext ctx);
-	void exitPostfix_expression(CParser.Postfix_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#postfix_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterPostfix_expression(@NotNull CParser.Postfix_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#postfix_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitPostfix_expression(@NotNull CParser.Postfix_expressionContext ctx);
 
-	void enterConstant(CParser.ConstantContext ctx);
-	void exitConstant(CParser.ConstantContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#constant}.
+	 * @param ctx the parse tree
+	 */
+	void enterConstant(@NotNull CParser.ConstantContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#constant}.
+	 * @param ctx the parse tree
+	 */
+	void exitConstant(@NotNull CParser.ConstantContext ctx);
 
-	void enterUnary_expression(CParser.Unary_expressionContext ctx);
-	void exitUnary_expression(CParser.Unary_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#unary_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterUnary_expression(@NotNull CParser.Unary_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#unary_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitUnary_expression(@NotNull CParser.Unary_expressionContext ctx);
 
-	void enterRelational_expression(CParser.Relational_expressionContext ctx);
-	void exitRelational_expression(CParser.Relational_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#relational_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterRelational_expression(@NotNull CParser.Relational_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#relational_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitRelational_expression(@NotNull CParser.Relational_expressionContext ctx);
 
-	void enterDeclarator(CParser.DeclaratorContext ctx);
-	void exitDeclarator(CParser.DeclaratorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#declarator}.
+	 * @param ctx the parse tree
+	 */
+	void enterDeclarator(@NotNull CParser.DeclaratorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#declarator}.
+	 * @param ctx the parse tree
+	 */
+	void exitDeclarator(@NotNull CParser.DeclaratorContext ctx);
 
-	void enterEntrance(CParser.EntranceContext ctx);
-	void exitEntrance(CParser.EntranceContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#entrance}.
+	 * @param ctx the parse tree
+	 */
+	void enterEntrance(@NotNull CParser.EntranceContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#entrance}.
+	 * @param ctx the parse tree
+	 */
+	void exitEntrance(@NotNull CParser.EntranceContext ctx);
 
-	void enterDeclaration_specifier(CParser.Declaration_specifierContext ctx);
-	void exitDeclaration_specifier(CParser.Declaration_specifierContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#declaration_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void enterDeclaration_specifier(@NotNull CParser.Declaration_specifierContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#declaration_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void exitDeclaration_specifier(@NotNull CParser.Declaration_specifierContext ctx);
 
-	void enterEnumerator_list(CParser.Enumerator_listContext ctx);
-	void exitEnumerator_list(CParser.Enumerator_listContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#enumerator_list}.
+	 * @param ctx the parse tree
+	 */
+	void enterEnumerator_list(@NotNull CParser.Enumerator_listContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#enumerator_list}.
+	 * @param ctx the parse tree
+	 */
+	void exitEnumerator_list(@NotNull CParser.Enumerator_listContext ctx);
 
-	void enterInit_declarator_list(CParser.Init_declarator_listContext ctx);
-	void exitInit_declarator_list(CParser.Init_declarator_listContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#init_declarator_list}.
+	 * @param ctx the parse tree
+	 */
+	void enterInit_declarator_list(@NotNull CParser.Init_declarator_listContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#init_declarator_list}.
+	 * @param ctx the parse tree
+	 */
+	void exitInit_declarator_list(@NotNull CParser.Init_declarator_listContext ctx);
 
-	void enterFloating_constant(CParser.Floating_constantContext ctx);
-	void exitFloating_constant(CParser.Floating_constantContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#floating_constant}.
+	 * @param ctx the parse tree
+	 */
+	void enterFloating_constant(@NotNull CParser.Floating_constantContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#floating_constant}.
+	 * @param ctx the parse tree
+	 */
+	void exitFloating_constant(@NotNull CParser.Floating_constantContext ctx);
 
-	void enterPointer(CParser.PointerContext ctx);
-	void exitPointer(CParser.PointerContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#pointer}.
+	 * @param ctx the parse tree
+	 */
+	void enterPointer(@NotNull CParser.PointerContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#pointer}.
+	 * @param ctx the parse tree
+	 */
+	void exitPointer(@NotNull CParser.PointerContext ctx);
 
-	void enterLogical_or_expression(CParser.Logical_or_expressionContext ctx);
-	void exitLogical_or_expression(CParser.Logical_or_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#logical_or_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterLogical_or_expression(@NotNull CParser.Logical_or_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#logical_or_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitLogical_or_expression(@NotNull CParser.Logical_or_expressionContext ctx);
 
-	void enterTypedef_name(CParser.Typedef_nameContext ctx);
-	void exitTypedef_name(CParser.Typedef_nameContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#typedef_name}.
+	 * @param ctx the parse tree
+	 */
+	void enterTypedef_name(@NotNull CParser.Typedef_nameContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#typedef_name}.
+	 * @param ctx the parse tree
+	 */
+	void exitTypedef_name(@NotNull CParser.Typedef_nameContext ctx);
 
-	void enterInit_declarator(CParser.Init_declaratorContext ctx);
-	void exitInit_declarator(CParser.Init_declaratorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#init_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void enterInit_declarator(@NotNull CParser.Init_declaratorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#init_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void exitInit_declarator(@NotNull CParser.Init_declaratorContext ctx);
 
-	void enterLabeled_statement(CParser.Labeled_statementContext ctx);
-	void exitLabeled_statement(CParser.Labeled_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#labeled_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterLabeled_statement(@NotNull CParser.Labeled_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#labeled_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitLabeled_statement(@NotNull CParser.Labeled_statementContext ctx);
 
-	void enterEnumerator(CParser.EnumeratorContext ctx);
-	void exitEnumerator(CParser.EnumeratorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#enumerator}.
+	 * @param ctx the parse tree
+	 */
+	void enterEnumerator(@NotNull CParser.EnumeratorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#enumerator}.
+	 * @param ctx the parse tree
+	 */
+	void exitEnumerator(@NotNull CParser.EnumeratorContext ctx);
 
-	void enterDirect_declarator(CParser.Direct_declaratorContext ctx);
-	void exitDirect_declarator(CParser.Direct_declaratorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#direct_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void enterDirect_declarator(@NotNull CParser.Direct_declaratorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#direct_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void exitDirect_declarator(@NotNull CParser.Direct_declaratorContext ctx);
 
-	void enterAssignment_expression(CParser.Assignment_expressionContext ctx);
-	void exitAssignment_expression(CParser.Assignment_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#assignment_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterAssignment_expression(@NotNull CParser.Assignment_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#assignment_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitAssignment_expression(@NotNull CParser.Assignment_expressionContext ctx);
 
-	void enterTranslation_unit(CParser.Translation_unitContext ctx);
-	void exitTranslation_unit(CParser.Translation_unitContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#translation_unit}.
+	 * @param ctx the parse tree
+	 */
+	void enterTranslation_unit(@NotNull CParser.Translation_unitContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#translation_unit}.
+	 * @param ctx the parse tree
+	 */
+	void exitTranslation_unit(@NotNull CParser.Translation_unitContext ctx);
 
-	void enterCompound_statement(CParser.Compound_statementContext ctx);
-	void exitCompound_statement(CParser.Compound_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#compound_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterCompound_statement(@NotNull CParser.Compound_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#compound_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitCompound_statement(@NotNull CParser.Compound_statementContext ctx);
 
-	void enterInitializer_list(CParser.Initializer_listContext ctx);
-	void exitInitializer_list(CParser.Initializer_listContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#initializer_list}.
+	 * @param ctx the parse tree
+	 */
+	void enterInitializer_list(@NotNull CParser.Initializer_listContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#initializer_list}.
+	 * @param ctx the parse tree
+	 */
+	void exitInitializer_list(@NotNull CParser.Initializer_listContext ctx);
 
-	void enterStruct_declarator(CParser.Struct_declaratorContext ctx);
-	void exitStruct_declarator(CParser.Struct_declaratorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#struct_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void enterStruct_declarator(@NotNull CParser.Struct_declaratorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#struct_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void exitStruct_declarator(@NotNull CParser.Struct_declaratorContext ctx);
 
-	void enterInclusive_or_expression(CParser.Inclusive_or_expressionContext ctx);
-	void exitInclusive_or_expression(CParser.Inclusive_or_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#inclusive_or_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterInclusive_or_expression(@NotNull CParser.Inclusive_or_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#inclusive_or_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitInclusive_or_expression(@NotNull CParser.Inclusive_or_expressionContext ctx);
 
-	void enterInitializer(CParser.InitializerContext ctx);
-	void exitInitializer(CParser.InitializerContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#initializer}.
+	 * @param ctx the parse tree
+	 */
+	void enterInitializer(@NotNull CParser.InitializerContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#initializer}.
+	 * @param ctx the parse tree
+	 */
+	void exitInitializer(@NotNull CParser.InitializerContext ctx);
 
-	void enterParameter_declaration(CParser.Parameter_declarationContext ctx);
-	void exitParameter_declaration(CParser.Parameter_declarationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#parameter_declaration}.
+	 * @param ctx the parse tree
+	 */
+	void enterParameter_declaration(@NotNull CParser.Parameter_declarationContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#parameter_declaration}.
+	 * @param ctx the parse tree
+	 */
+	void exitParameter_declaration(@NotNull CParser.Parameter_declarationContext ctx);
 
-	void enterType_qualifier(CParser.Type_qualifierContext ctx);
-	void exitType_qualifier(CParser.Type_qualifierContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#type_qualifier}.
+	 * @param ctx the parse tree
+	 */
+	void enterType_qualifier(@NotNull CParser.Type_qualifierContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#type_qualifier}.
+	 * @param ctx the parse tree
+	 */
+	void exitType_qualifier(@NotNull CParser.Type_qualifierContext ctx);
 
-	void enterDeclaration_statement(CParser.Declaration_statementContext ctx);
-	void exitDeclaration_statement(CParser.Declaration_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#declaration_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterDeclaration_statement(@NotNull CParser.Declaration_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#declaration_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitDeclaration_statement(@NotNull CParser.Declaration_statementContext ctx);
 
-	void enterAdditive_expression(CParser.Additive_expressionContext ctx);
-	void exitAdditive_expression(CParser.Additive_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#additive_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterAdditive_expression(@NotNull CParser.Additive_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#additive_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitAdditive_expression(@NotNull CParser.Additive_expressionContext ctx);
 
-	void enterParameter_type_list(CParser.Parameter_type_listContext ctx);
-	void exitParameter_type_list(CParser.Parameter_type_listContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#parameter_type_list}.
+	 * @param ctx the parse tree
+	 */
+	void enterParameter_type_list(@NotNull CParser.Parameter_type_listContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#parameter_type_list}.
+	 * @param ctx the parse tree
+	 */
+	void exitParameter_type_list(@NotNull CParser.Parameter_type_listContext ctx);
 
-	void enterAbstract_declarator(CParser.Abstract_declaratorContext ctx);
-	void exitAbstract_declarator(CParser.Abstract_declaratorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#abstract_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void enterAbstract_declarator(@NotNull CParser.Abstract_declaratorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#abstract_declarator}.
+	 * @param ctx the parse tree
+	 */
+	void exitAbstract_declarator(@NotNull CParser.Abstract_declaratorContext ctx);
 
-	void enterStatement(CParser.StatementContext ctx);
-	void exitStatement(CParser.StatementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterStatement(@NotNull CParser.StatementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitStatement(@NotNull CParser.StatementContext ctx);
 
-	void enterType_name(CParser.Type_nameContext ctx);
-	void exitType_name(CParser.Type_nameContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#type_name}.
+	 * @param ctx the parse tree
+	 */
+	void enterType_name(@NotNull CParser.Type_nameContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#type_name}.
+	 * @param ctx the parse tree
+	 */
+	void exitType_name(@NotNull CParser.Type_nameContext ctx);
 
-	void enterConditional_expression(CParser.Conditional_expressionContext ctx);
-	void exitConditional_expression(CParser.Conditional_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#conditional_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterConditional_expression(@NotNull CParser.Conditional_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#conditional_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitConditional_expression(@NotNull CParser.Conditional_expressionContext ctx);
 
-	void enterAssignment_expression_list(CParser.Assignment_expression_listContext ctx);
-	void exitAssignment_expression_list(CParser.Assignment_expression_listContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#assignment_expression_list}.
+	 * @param ctx the parse tree
+	 */
+	void enterAssignment_expression_list(@NotNull CParser.Assignment_expression_listContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#assignment_expression_list}.
+	 * @param ctx the parse tree
+	 */
+	void exitAssignment_expression_list(@NotNull CParser.Assignment_expression_listContext ctx);
 
-	void enterParameter_list(CParser.Parameter_listContext ctx);
-	void exitParameter_list(CParser.Parameter_listContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#parameter_list}.
+	 * @param ctx the parse tree
+	 */
+	void enterParameter_list(@NotNull CParser.Parameter_listContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#parameter_list}.
+	 * @param ctx the parse tree
+	 */
+	void exitParameter_list(@NotNull CParser.Parameter_listContext ctx);
 
-	void enterShift_expression(CParser.Shift_expressionContext ctx);
-	void exitShift_expression(CParser.Shift_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#shift_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterShift_expression(@NotNull CParser.Shift_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#shift_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitShift_expression(@NotNull CParser.Shift_expressionContext ctx);
 
-	void enterPrimary_expression(CParser.Primary_expressionContext ctx);
-	void exitPrimary_expression(CParser.Primary_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#primary_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterPrimary_expression(@NotNull CParser.Primary_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#primary_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitPrimary_expression(@NotNull CParser.Primary_expressionContext ctx);
 
-	void enterLogical_and_expression(CParser.Logical_and_expressionContext ctx);
-	void exitLogical_and_expression(CParser.Logical_and_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#logical_and_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterLogical_and_expression(@NotNull CParser.Logical_and_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#logical_and_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitLogical_and_expression(@NotNull CParser.Logical_and_expressionContext ctx);
 
-	void enterType_specifier(CParser.Type_specifierContext ctx);
-	void exitType_specifier(CParser.Type_specifierContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#type_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void enterType_specifier(@NotNull CParser.Type_specifierContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#type_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void exitType_specifier(@NotNull CParser.Type_specifierContext ctx);
 
-	void enterDeclaration(CParser.DeclarationContext ctx);
-	void exitDeclaration(CParser.DeclarationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#declaration}.
+	 * @param ctx the parse tree
+	 */
+	void enterDeclaration(@NotNull CParser.DeclarationContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#declaration}.
+	 * @param ctx the parse tree
+	 */
+	void exitDeclaration(@NotNull CParser.DeclarationContext ctx);
 
-	void enterCharacter_constant(CParser.Character_constantContext ctx);
-	void exitCharacter_constant(CParser.Character_constantContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#character_constant}.
+	 * @param ctx the parse tree
+	 */
+	void enterCharacter_constant(@NotNull CParser.Character_constantContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#character_constant}.
+	 * @param ctx the parse tree
+	 */
+	void exitCharacter_constant(@NotNull CParser.Character_constantContext ctx);
 
-	void enterStorage_specifier(CParser.Storage_specifierContext ctx);
-	void exitStorage_specifier(CParser.Storage_specifierContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#storage_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void enterStorage_specifier(@NotNull CParser.Storage_specifierContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#storage_specifier}.
+	 * @param ctx the parse tree
+	 */
+	void exitStorage_specifier(@NotNull CParser.Storage_specifierContext ctx);
 
-	void enterSelection_statement(CParser.Selection_statementContext ctx);
-	void exitSelection_statement(CParser.Selection_statementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#selection_statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterSelection_statement(@NotNull CParser.Selection_statementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#selection_statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitSelection_statement(@NotNull CParser.Selection_statementContext ctx);
 
-	void enterEquality_expression(CParser.Equality_expressionContext ctx);
-	void exitEquality_expression(CParser.Equality_expressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link CParser#equality_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterEquality_expression(@NotNull CParser.Equality_expressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link CParser#equality_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitEquality_expression(@NotNull CParser.Equality_expressionContext ctx);
 }

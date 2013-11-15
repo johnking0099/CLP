@@ -1,205 +1,870 @@
-// Generated from C.g4 by ANTLR 4.0
+// Generated from C.g4 by ANTLR 4.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.Token;
-import org.antlr.v4.runtime.tree.TerminalNode;
+import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ErrorNode;
+import org.antlr.v4.runtime.tree.TerminalNode;
 
+/**
+ * This class provides an empty implementation of {@link CListener},
+ * which can be extended to create a listener which only needs to handle a subset
+ * of the available methods.
+ */
 public class CBaseListener implements CListener {
-	@Override public void enterStruct_declaration_statement(CParser.Struct_declaration_statementContext ctx) { }
-	@Override public void exitStruct_declaration_statement(CParser.Struct_declaration_statementContext ctx) { }
-
-	@Override public void enterEnum_specifier(CParser.Enum_specifierContext ctx) { }
-	@Override public void exitEnum_specifier(CParser.Enum_specifierContext ctx) { }
-
-	@Override public void enterAnd_expression(CParser.And_expressionContext ctx) { }
-	@Override public void exitAnd_expression(CParser.And_expressionContext ctx) { }
-
-	@Override public void enterStruct_declarator_list(CParser.Struct_declarator_listContext ctx) { }
-	@Override public void exitStruct_declarator_list(CParser.Struct_declarator_listContext ctx) { }
-
-	@Override public void enterInteger_constant(CParser.Integer_constantContext ctx) { }
-	@Override public void exitInteger_constant(CParser.Integer_constantContext ctx) { }
-
-	@Override public void enterExternal_declaration(CParser.External_declarationContext ctx) { }
-	@Override public void exitExternal_declaration(CParser.External_declarationContext ctx) { }
-
-	@Override public void enterExpression_statement(CParser.Expression_statementContext ctx) { }
-	@Override public void exitExpression_statement(CParser.Expression_statementContext ctx) { }
-
-	@Override public void enterIteration_statement(CParser.Iteration_statementContext ctx) { }
-	@Override public void exitIteration_statement(CParser.Iteration_statementContext ctx) { }
-
-	@Override public void enterStruct_declaration(CParser.Struct_declarationContext ctx) { }
-	@Override public void exitStruct_declaration(CParser.Struct_declarationContext ctx) { }
-
-	@Override public void enterConstant_expression(CParser.Constant_expressionContext ctx) { }
-	@Override public void exitConstant_expression(CParser.Constant_expressionContext ctx) { }
-
-	@Override public void enterExclusive_or_expression(CParser.Exclusive_or_expressionContext ctx) { }
-	@Override public void exitExclusive_or_expression(CParser.Exclusive_or_expressionContext ctx) { }
-
-	@Override public void enterExpression(CParser.ExpressionContext ctx) { }
-	@Override public void exitExpression(CParser.ExpressionContext ctx) { }
-
-	@Override public void enterDirect_abstract_declarator(CParser.Direct_abstract_declaratorContext ctx) { }
-	@Override public void exitDirect_abstract_declarator(CParser.Direct_abstract_declaratorContext ctx) { }
-
-	@Override public void enterCast_expression(CParser.Cast_expressionContext ctx) { }
-	@Override public void exitCast_expression(CParser.Cast_expressionContext ctx) { }
-
-	@Override public void enterFunction_definition(CParser.Function_definitionContext ctx) { }
-	@Override public void exitFunction_definition(CParser.Function_definitionContext ctx) { }
-
-	@Override public void enterStruct_or_union_specifier(CParser.Struct_or_union_specifierContext ctx) { }
-	@Override public void exitStruct_or_union_specifier(CParser.Struct_or_union_specifierContext ctx) { }
-
-	@Override public void enterEnumeration_constant(CParser.Enumeration_constantContext ctx) { }
-	@Override public void exitEnumeration_constant(CParser.Enumeration_constantContext ctx) { }
-
-	@Override public void enterStruct_or_union(CParser.Struct_or_unionContext ctx) { }
-	@Override public void exitStruct_or_union(CParser.Struct_or_unionContext ctx) { }
-
-	@Override public void enterJump_statement(CParser.Jump_statementContext ctx) { }
-	@Override public void exitJump_statement(CParser.Jump_statementContext ctx) { }
-
-	@Override public void enterMultiplicative_expression(CParser.Multiplicative_expressionContext ctx) { }
-	@Override public void exitMultiplicative_expression(CParser.Multiplicative_expressionContext ctx) { }
-
-	@Override public void enterPostfix_expression(CParser.Postfix_expressionContext ctx) { }
-	@Override public void exitPostfix_expression(CParser.Postfix_expressionContext ctx) { }
-
-	@Override public void enterConstant(CParser.ConstantContext ctx) { }
-	@Override public void exitConstant(CParser.ConstantContext ctx) { }
-
-	@Override public void enterUnary_expression(CParser.Unary_expressionContext ctx) { }
-	@Override public void exitUnary_expression(CParser.Unary_expressionContext ctx) { }
-
-	@Override public void enterRelational_expression(CParser.Relational_expressionContext ctx) { }
-	@Override public void exitRelational_expression(CParser.Relational_expressionContext ctx) { }
-
-	@Override public void enterDeclarator(CParser.DeclaratorContext ctx) { }
-	@Override public void exitDeclarator(CParser.DeclaratorContext ctx) { }
-
-	@Override public void enterEntrance(CParser.EntranceContext ctx) { }
-	@Override public void exitEntrance(CParser.EntranceContext ctx) { }
-
-	@Override public void enterDeclaration_specifier(CParser.Declaration_specifierContext ctx) { }
-	@Override public void exitDeclaration_specifier(CParser.Declaration_specifierContext ctx) { }
-
-	@Override public void enterEnumerator_list(CParser.Enumerator_listContext ctx) { }
-	@Override public void exitEnumerator_list(CParser.Enumerator_listContext ctx) { }
-
-	@Override public void enterInit_declarator_list(CParser.Init_declarator_listContext ctx) { }
-	@Override public void exitInit_declarator_list(CParser.Init_declarator_listContext ctx) { }
-
-	@Override public void enterFloating_constant(CParser.Floating_constantContext ctx) { }
-	@Override public void exitFloating_constant(CParser.Floating_constantContext ctx) { }
-
-	@Override public void enterPointer(CParser.PointerContext ctx) { }
-	@Override public void exitPointer(CParser.PointerContext ctx) { }
-
-	@Override public void enterLogical_or_expression(CParser.Logical_or_expressionContext ctx) { }
-	@Override public void exitLogical_or_expression(CParser.Logical_or_expressionContext ctx) { }
-
-	@Override public void enterTypedef_name(CParser.Typedef_nameContext ctx) { }
-	@Override public void exitTypedef_name(CParser.Typedef_nameContext ctx) { }
-
-	@Override public void enterInit_declarator(CParser.Init_declaratorContext ctx) { }
-	@Override public void exitInit_declarator(CParser.Init_declaratorContext ctx) { }
-
-	@Override public void enterLabeled_statement(CParser.Labeled_statementContext ctx) { }
-	@Override public void exitLabeled_statement(CParser.Labeled_statementContext ctx) { }
-
-	@Override public void enterEnumerator(CParser.EnumeratorContext ctx) { }
-	@Override public void exitEnumerator(CParser.EnumeratorContext ctx) { }
-
-	@Override public void enterDirect_declarator(CParser.Direct_declaratorContext ctx) { }
-	@Override public void exitDirect_declarator(CParser.Direct_declaratorContext ctx) { }
-
-	@Override public void enterAssignment_expression(CParser.Assignment_expressionContext ctx) { }
-	@Override public void exitAssignment_expression(CParser.Assignment_expressionContext ctx) { }
-
-	@Override public void enterTranslation_unit(CParser.Translation_unitContext ctx) { }
-	@Override public void exitTranslation_unit(CParser.Translation_unitContext ctx) { }
-
-	@Override public void enterCompound_statement(CParser.Compound_statementContext ctx) { }
-	@Override public void exitCompound_statement(CParser.Compound_statementContext ctx) { }
-
-	@Override public void enterInitializer_list(CParser.Initializer_listContext ctx) { }
-	@Override public void exitInitializer_list(CParser.Initializer_listContext ctx) { }
-
-	@Override public void enterStruct_declarator(CParser.Struct_declaratorContext ctx) { }
-	@Override public void exitStruct_declarator(CParser.Struct_declaratorContext ctx) { }
-
-	@Override public void enterInclusive_or_expression(CParser.Inclusive_or_expressionContext ctx) { }
-	@Override public void exitInclusive_or_expression(CParser.Inclusive_or_expressionContext ctx) { }
-
-	@Override public void enterInitializer(CParser.InitializerContext ctx) { }
-	@Override public void exitInitializer(CParser.InitializerContext ctx) { }
-
-	@Override public void enterParameter_declaration(CParser.Parameter_declarationContext ctx) { }
-	@Override public void exitParameter_declaration(CParser.Parameter_declarationContext ctx) { }
-
-	@Override public void enterType_qualifier(CParser.Type_qualifierContext ctx) { }
-	@Override public void exitType_qualifier(CParser.Type_qualifierContext ctx) { }
-
-	@Override public void enterDeclaration_statement(CParser.Declaration_statementContext ctx) { }
-	@Override public void exitDeclaration_statement(CParser.Declaration_statementContext ctx) { }
-
-	@Override public void enterAdditive_expression(CParser.Additive_expressionContext ctx) { }
-	@Override public void exitAdditive_expression(CParser.Additive_expressionContext ctx) { }
-
-	@Override public void enterParameter_type_list(CParser.Parameter_type_listContext ctx) { }
-	@Override public void exitParameter_type_list(CParser.Parameter_type_listContext ctx) { }
-
-	@Override public void enterAbstract_declarator(CParser.Abstract_declaratorContext ctx) { }
-	@Override public void exitAbstract_declarator(CParser.Abstract_declaratorContext ctx) { }
-
-	@Override public void enterStatement(CParser.StatementContext ctx) { }
-	@Override public void exitStatement(CParser.StatementContext ctx) { }
-
-	@Override public void enterType_name(CParser.Type_nameContext ctx) { }
-	@Override public void exitType_name(CParser.Type_nameContext ctx) { }
-
-	@Override public void enterConditional_expression(CParser.Conditional_expressionContext ctx) { }
-	@Override public void exitConditional_expression(CParser.Conditional_expressionContext ctx) { }
-
-	@Override public void enterAssignment_expression_list(CParser.Assignment_expression_listContext ctx) { }
-	@Override public void exitAssignment_expression_list(CParser.Assignment_expression_listContext ctx) { }
-
-	@Override public void enterParameter_list(CParser.Parameter_listContext ctx) { }
-	@Override public void exitParameter_list(CParser.Parameter_listContext ctx) { }
-
-	@Override public void enterShift_expression(CParser.Shift_expressionContext ctx) { }
-	@Override public void exitShift_expression(CParser.Shift_expressionContext ctx) { }
-
-	@Override public void enterPrimary_expression(CParser.Primary_expressionContext ctx) { }
-	@Override public void exitPrimary_expression(CParser.Primary_expressionContext ctx) { }
-
-	@Override public void enterLogical_and_expression(CParser.Logical_and_expressionContext ctx) { }
-	@Override public void exitLogical_and_expression(CParser.Logical_and_expressionContext ctx) { }
-
-	@Override public void enterType_specifier(CParser.Type_specifierContext ctx) { }
-	@Override public void exitType_specifier(CParser.Type_specifierContext ctx) { }
-
-	@Override public void enterDeclaration(CParser.DeclarationContext ctx) { }
-	@Override public void exitDeclaration(CParser.DeclarationContext ctx) { }
-
-	@Override public void enterCharacter_constant(CParser.Character_constantContext ctx) { }
-	@Override public void exitCharacter_constant(CParser.Character_constantContext ctx) { }
-
-	@Override public void enterStorage_specifier(CParser.Storage_specifierContext ctx) { }
-	@Override public void exitStorage_specifier(CParser.Storage_specifierContext ctx) { }
-
-	@Override public void enterSelection_statement(CParser.Selection_statementContext ctx) { }
-	@Override public void exitSelection_statement(CParser.Selection_statementContext ctx) { }
-
-	@Override public void enterEquality_expression(CParser.Equality_expressionContext ctx) { }
-	@Override public void exitEquality_expression(CParser.Equality_expressionContext ctx) { }
-
-	@Override public void enterEveryRule(ParserRuleContext ctx) { }
-	@Override public void exitEveryRule(ParserRuleContext ctx) { }
-	@Override public void visitTerminal(TerminalNode node) { }
-	@Override public void visitErrorNode(ErrorNode node) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStruct_declaration_statement(@NotNull CParser.Struct_declaration_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStruct_declaration_statement(@NotNull CParser.Struct_declaration_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterEnum_specifier(@NotNull CParser.Enum_specifierContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitEnum_specifier(@NotNull CParser.Enum_specifierContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterAnd_expression(@NotNull CParser.And_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitAnd_expression(@NotNull CParser.And_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStruct_declarator_list(@NotNull CParser.Struct_declarator_listContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStruct_declarator_list(@NotNull CParser.Struct_declarator_listContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterInteger_constant(@NotNull CParser.Integer_constantContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitInteger_constant(@NotNull CParser.Integer_constantContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterExternal_declaration(@NotNull CParser.External_declarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitExternal_declaration(@NotNull CParser.External_declarationContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterExpression_statement(@NotNull CParser.Expression_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitExpression_statement(@NotNull CParser.Expression_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterIteration_statement(@NotNull CParser.Iteration_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitIteration_statement(@NotNull CParser.Iteration_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStruct_declaration(@NotNull CParser.Struct_declarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStruct_declaration(@NotNull CParser.Struct_declarationContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterConstant_expression(@NotNull CParser.Constant_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitConstant_expression(@NotNull CParser.Constant_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterExclusive_or_expression(@NotNull CParser.Exclusive_or_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitExclusive_or_expression(@NotNull CParser.Exclusive_or_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterExpression(@NotNull CParser.ExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitExpression(@NotNull CParser.ExpressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterDirect_abstract_declarator(@NotNull CParser.Direct_abstract_declaratorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitDirect_abstract_declarator(@NotNull CParser.Direct_abstract_declaratorContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterCast_expression(@NotNull CParser.Cast_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitCast_expression(@NotNull CParser.Cast_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterFunction_definition(@NotNull CParser.Function_definitionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitFunction_definition(@NotNull CParser.Function_definitionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStruct_or_union_specifier(@NotNull CParser.Struct_or_union_specifierContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStruct_or_union_specifier(@NotNull CParser.Struct_or_union_specifierContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterEnumeration_constant(@NotNull CParser.Enumeration_constantContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitEnumeration_constant(@NotNull CParser.Enumeration_constantContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStruct_or_union(@NotNull CParser.Struct_or_unionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStruct_or_union(@NotNull CParser.Struct_or_unionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterJump_statement(@NotNull CParser.Jump_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitJump_statement(@NotNull CParser.Jump_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterMultiplicative_expression(@NotNull CParser.Multiplicative_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitMultiplicative_expression(@NotNull CParser.Multiplicative_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterPostfix_expression(@NotNull CParser.Postfix_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitPostfix_expression(@NotNull CParser.Postfix_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterConstant(@NotNull CParser.ConstantContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitConstant(@NotNull CParser.ConstantContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterUnary_expression(@NotNull CParser.Unary_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitUnary_expression(@NotNull CParser.Unary_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterRelational_expression(@NotNull CParser.Relational_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitRelational_expression(@NotNull CParser.Relational_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterDeclarator(@NotNull CParser.DeclaratorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitDeclarator(@NotNull CParser.DeclaratorContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterEntrance(@NotNull CParser.EntranceContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitEntrance(@NotNull CParser.EntranceContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterDeclaration_specifier(@NotNull CParser.Declaration_specifierContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitDeclaration_specifier(@NotNull CParser.Declaration_specifierContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterEnumerator_list(@NotNull CParser.Enumerator_listContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitEnumerator_list(@NotNull CParser.Enumerator_listContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterInit_declarator_list(@NotNull CParser.Init_declarator_listContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitInit_declarator_list(@NotNull CParser.Init_declarator_listContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterFloating_constant(@NotNull CParser.Floating_constantContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitFloating_constant(@NotNull CParser.Floating_constantContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterPointer(@NotNull CParser.PointerContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitPointer(@NotNull CParser.PointerContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterLogical_or_expression(@NotNull CParser.Logical_or_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitLogical_or_expression(@NotNull CParser.Logical_or_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterTypedef_name(@NotNull CParser.Typedef_nameContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitTypedef_name(@NotNull CParser.Typedef_nameContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterInit_declarator(@NotNull CParser.Init_declaratorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitInit_declarator(@NotNull CParser.Init_declaratorContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterLabeled_statement(@NotNull CParser.Labeled_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitLabeled_statement(@NotNull CParser.Labeled_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterEnumerator(@NotNull CParser.EnumeratorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitEnumerator(@NotNull CParser.EnumeratorContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterDirect_declarator(@NotNull CParser.Direct_declaratorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitDirect_declarator(@NotNull CParser.Direct_declaratorContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterAssignment_expression(@NotNull CParser.Assignment_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitAssignment_expression(@NotNull CParser.Assignment_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterTranslation_unit(@NotNull CParser.Translation_unitContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitTranslation_unit(@NotNull CParser.Translation_unitContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterCompound_statement(@NotNull CParser.Compound_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitCompound_statement(@NotNull CParser.Compound_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterInitializer_list(@NotNull CParser.Initializer_listContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitInitializer_list(@NotNull CParser.Initializer_listContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStruct_declarator(@NotNull CParser.Struct_declaratorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStruct_declarator(@NotNull CParser.Struct_declaratorContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterInclusive_or_expression(@NotNull CParser.Inclusive_or_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitInclusive_or_expression(@NotNull CParser.Inclusive_or_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterInitializer(@NotNull CParser.InitializerContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitInitializer(@NotNull CParser.InitializerContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterParameter_declaration(@NotNull CParser.Parameter_declarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitParameter_declaration(@NotNull CParser.Parameter_declarationContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterType_qualifier(@NotNull CParser.Type_qualifierContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitType_qualifier(@NotNull CParser.Type_qualifierContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterDeclaration_statement(@NotNull CParser.Declaration_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitDeclaration_statement(@NotNull CParser.Declaration_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterAdditive_expression(@NotNull CParser.Additive_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitAdditive_expression(@NotNull CParser.Additive_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterParameter_type_list(@NotNull CParser.Parameter_type_listContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitParameter_type_list(@NotNull CParser.Parameter_type_listContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterAbstract_declarator(@NotNull CParser.Abstract_declaratorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitAbstract_declarator(@NotNull CParser.Abstract_declaratorContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStatement(@NotNull CParser.StatementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStatement(@NotNull CParser.StatementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterType_name(@NotNull CParser.Type_nameContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitType_name(@NotNull CParser.Type_nameContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterConditional_expression(@NotNull CParser.Conditional_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitConditional_expression(@NotNull CParser.Conditional_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterAssignment_expression_list(@NotNull CParser.Assignment_expression_listContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitAssignment_expression_list(@NotNull CParser.Assignment_expression_listContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterParameter_list(@NotNull CParser.Parameter_listContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitParameter_list(@NotNull CParser.Parameter_listContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterShift_expression(@NotNull CParser.Shift_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitShift_expression(@NotNull CParser.Shift_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterPrimary_expression(@NotNull CParser.Primary_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitPrimary_expression(@NotNull CParser.Primary_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterLogical_and_expression(@NotNull CParser.Logical_and_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitLogical_and_expression(@NotNull CParser.Logical_and_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterType_specifier(@NotNull CParser.Type_specifierContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitType_specifier(@NotNull CParser.Type_specifierContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterDeclaration(@NotNull CParser.DeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitDeclaration(@NotNull CParser.DeclarationContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterCharacter_constant(@NotNull CParser.Character_constantContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitCharacter_constant(@NotNull CParser.Character_constantContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterStorage_specifier(@NotNull CParser.Storage_specifierContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitStorage_specifier(@NotNull CParser.Storage_specifierContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterSelection_statement(@NotNull CParser.Selection_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitSelection_statement(@NotNull CParser.Selection_statementContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterEquality_expression(@NotNull CParser.Equality_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitEquality_expression(@NotNull CParser.Equality_expressionContext ctx) { }
+
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void enterEveryRule(@NotNull ParserRuleContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void exitEveryRule(@NotNull ParserRuleContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void visitTerminal(@NotNull TerminalNode node) { }
+	/**
+	 * {@inheritDoc}
+	 * <p/>
+	 * The default implementation does nothing.
+	 */
+	@Override public void visitErrorNode(@NotNull ErrorNode node) { }
 }
